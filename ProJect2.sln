@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProJect2.UnitTest", "ProJec
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication2", "WebApplication2\WebApplication2.csproj", "{5F237A93-C5D2-4D3A-AF0E-E2CDBC7F3D03}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProJect2.Service", "ProJect2.Service\ProJect2.Service.csproj", "{20202D74-1041-4D53-B520-A0C02464EA35}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{5F237A93-C5D2-4D3A-AF0E-E2CDBC7F3D03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F237A93-C5D2-4D3A-AF0E-E2CDBC7F3D03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F237A93-C5D2-4D3A-AF0E-E2CDBC7F3D03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20202D74-1041-4D53-B520-A0C02464EA35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20202D74-1041-4D53-B520-A0C02464EA35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20202D74-1041-4D53-B520-A0C02464EA35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20202D74-1041-4D53-B520-A0C02464EA35}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

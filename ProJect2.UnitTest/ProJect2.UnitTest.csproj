@@ -52,7 +52,22 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ProJect2.Data\ProJect2.Data.csproj">
+      <Project>{d394dc24-154b-4c5a-ab49-32167b30d936}</Project>
+      <Name>ProJect2.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProJect2.Model\ProJect2.Model.csproj">
+      <Project>{a930b87a-1ab5-4425-90ae-fd4a99317595}</Project>
+      <Name>ProJect2.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WebApplication2\WebApplication2.csproj">
+      <Project>{5f237a93-c5d2-4d3a-af0e-e2cdbc7f3d03}</Project>
+      <Name>WebApplication2</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

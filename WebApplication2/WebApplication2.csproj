@@ -179,6 +179,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
@@ -257,6 +258,20 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ProJect2.Data\ProJect2.Data.csproj">
+      <Project>{d394dc24-154b-4c5a-ab49-32167b30d936}</Project>
+      <Name>ProJect2.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProJect2.Model\ProJect2.Model.csproj">
+      <Project>{a930b87a-1ab5-4425-90ae-fd4a99317595}</Project>
+      <Name>ProJect2.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProJect2.Service\ProJect2.Service.csproj">
+      <Project>{20202d74-1041-4d53-b520-a0c02464ea35}</Project>
+      <Name>ProJect2.Service</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
